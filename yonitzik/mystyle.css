@@ -1,0 +1,126 @@
+
+/* 1צבע רקע  */
+body {
+	background: linear-gradient(-45deg, #ee7752, #e7dc3c, #dd0f8e, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+	
+/* 2כותרת ראשית  */
+h1 {
+	text-align: center;
+    margin: 0px auto;
+    display; block;
+	font-size: 60px;
+	line-height: 0.9;
+	padding: 20px;
+	font-family: 'Syncopate', sans-serif;
+	text-transform: uppercase;
+	background: radial-gradient(
+    circle farthest-corner at center center,
+    rgb(92, 5, 5),
+    #111
+   ) no-repeat;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+/* 3פסקה גבולות מרכוז  */
+p{
+	text-align: center;
+	font-size: 23px;
+	font-family: 'Monofett', cursive;
+	font-family: 'Source Sans Pro', sans-serif;
+	
+}
+
+/* כותרת   */
+
+h2{text-align: center;
+	font-family: courier;
+    margin: 0px auto;
+    display; block;
+	font-size: 50px;
+	color: red;}
+
+
+/* כותרת 3 */
+h3{text-align: center;
+	font-family: courier;
+    margin: 0px auto;
+    display; block;
+	font-size: 50px;
+	color: red;
+	}
+
+
+
+/* כותרת 4  */
+h4{
+	text-align: center;
+	font-family: courier;
+    margin: 0px auto;
+    display; block;
+	font-size: 50px;
+	color: red;
+}
+
+
+
+/* כותרת 5 */
+h5{
+	text-align: center;
+	font-family: courier;
+    margin: 0px auto;
+    display; block;
+	font-size: 50px;
+	color: red;
+}
+/* כותרת 6 */
+h6{
+	text-align: center;
+	font-family: courier;
+    margin: 0px auto;
+    display; block;
+	font-size: 50px;
+	color: red;
+}
+/* 4עיצוב גודל הסרטונים */
+iframe {
+    width: 550px;
+	height: 345px;
+    display: block;
+    margin: 0 auto;
+}
+/* 5עיצוב גודל ה קישורים לכתבות H4 */
+ul { 
+	font-size: 25px;
+	width: 400px; 
+	margin-left: auto; 
+	margin-right: auto; 
+	}
+/* 6עיצוב טבלה */
+th,tr,td { 
+	border: 3px solid ;
+	border-collapse: collapse;
+	color: rgb(92, 9, 88); 
+	font-size: 30px; 
+	text-align: center;
+   }   
+/* לקרוא לטבלה ולשים אותה באמצע הדף  */
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+/*7 עיצוב גודל של המשחק  */
+.game {
+	width: 800px;
+	height: 500px;
+}
+/* 8אודות */
+footer{
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+	color: purple;
+}
+div{}
